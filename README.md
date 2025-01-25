@@ -24,3 +24,7 @@ def get_user_input():
           if A <= 0 or B <= 0:
               print("Error: Both numbers must be positive integers.")
               return None
+          return (A, B)
+    except ValueError:
+        print("Error: Please enter valid integers.")
+        return None
