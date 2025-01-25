@@ -31,5 +31,5 @@ def get_user_input():
 # Main
 data = get_user_input()
 if data:
-    gcd = GCDAlgorithm.compute_gcd(data[0], data[1])
+    gcd = GCDAlgorithm.compute_gcd(data[0], data[1])    # 
     print(f"The GCD of {data[0]} and {data[1]} is: {gcd}")
