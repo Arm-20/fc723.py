@@ -2,7 +2,7 @@ class GCDAlgorithm:
 """
 this class implements the GCDAlgorithm to find the greatest common divisor (GCD).
 """
-    @staticmethod
+    
     def compute_gcd(A, B):
         """
         This method calculates the GCD of two positive integers using the Euclidean Algorithm.
