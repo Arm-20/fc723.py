@@ -12,3 +12,12 @@ def compute_gcd(A, B):
       B = A % B #remainder
       A = prev  #Update 'A' to be the previous value of 'B'
   return A
+
+def get_user_input():
+     """
+     this function accepts input and calculates the GCD.
+     """
+     try:
+          A = int(input("please enter the firts positve integer: "))
+          B = int(input("please enter the second positive integer: "))
+          # Input validation
