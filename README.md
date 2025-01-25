@@ -21,3 +21,6 @@ def get_user_input():
           A = int(input("please enter the firts positve integer: "))
           B = int(input("please enter the second positive integer: "))
           # Input validation
+          if A <= 0 or B <= 0:
+              print("Error: Both numbers must be positive integers.")
+              return None
